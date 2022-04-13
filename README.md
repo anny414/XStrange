@@ -33,7 +33,7 @@ This Bot is Created by TheAnnyOP, If your kanging this without fork at least giv
 
 ### Support
 <p>
-<a href="https://t.me/TheAnnyOP"> <img src="https://img.shields.io/badge/TheAnnyOP-Owner-blue" alt="Sena on Telegram" /> </a><br>
+<a href="https://t.me/TheAnnyOP"> <img src="https://img.shields.io/badge/TheAnnyOP-Owner-blue?&logo=telegram" alt="Anny on Telegram" /> </a><br>
 </p>
 
 ## Credit 
