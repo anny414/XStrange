@@ -82,13 +82,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+𒁁 *Hello {} !*
+𒀖 I'm a Group management Bot [✨](https://telegra.ph/file/abe601bc5f67c3ff81af6.jpg)
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+𒀖 *Uptime:* `{}`
 ────────────────────────
-✪ Hit /help to see my available commands.
+𒀖 Hit /help to see my available commands.
+
 """
 
 buttons = [
@@ -113,9 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+If You Want To Donate Us Pm My Owner @TheAnnyOP"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -367,7 +365,7 @@ def xstrange_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            f"\n\n_{dispatcher.bot.first_name}'s licensed under the GNU General Public License v3.0_"
+            f"\n\n_{dispatcher.bot.first_name}'s Owner is @TheAnnyOP"
             f"\n\n Click on button bellow to get basic help for {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -435,14 +433,14 @@ def xstrange_about_callback(update, context):
         )
     elif query.data == "xstrange_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
-            f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
+            text="*๏ XStrange support *"
+            f"\nPm My Owner for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/TheAnnyOP"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/MoviepixelUpdate"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="xstrange_"),
@@ -461,25 +459,25 @@ def xstrange_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="TheAnnyOP", url="https://t.me/TheAnnyOP"),
+                    InlineKeyboardButton(text="Avi", url="https://t.me/Avishkarpatil"),
                  ],
-                 [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                 ],
+                 #[
+                  #  InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
+                   # InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
+                 #],
+                 #[
+                  #  InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
+                   # InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                 #],
+                 #[
+                  #  InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
+                   # InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                 #],
+                 #[
+                  #  InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
+                   # InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                 #],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="xstrange_"),
                  ]
@@ -751,8 +749,8 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
-                "[My Channel]({})".format(DONATION_LINK),
+                "I'm free for everyone ❤️ If you wanna make me smile, just PM"
+                "[TheAnnyOP](https://t.me/TheAnnyOP)",
                 parse_mode=ParseMode.MARKDOWN,
             )
     else:
