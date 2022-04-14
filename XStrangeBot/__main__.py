@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="xstrange_"),
+        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="xstrange_about"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -356,7 +356,7 @@ def help_button(update, context):
 
 def xstrange_about_callback(update, context):
     query = update.callback_query
-    if query.data == "xstrange_":
+    if query.data == "xstrange_about":
         query.message.edit_text(
             text=f"๏ I'm *{dispatcher.bot.first_name}*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
