@@ -100,7 +100,7 @@ buttons = [
         InlineKeyboardButton(text="Join Updates", url=f"t.me/XstrangeUpdate"),
         #InlineKeyboardButton(
         #    text="Try inline!​​", switch_inline_query_current_chat=""
-        ),
+        #),
     ],
     [
         InlineKeyboardButton(
