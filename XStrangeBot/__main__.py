@@ -93,12 +93,13 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="xstrange_about"),
+        InlineKeyboardButton(text=f"About my Oenwr", url=f"https://aniruddhajadhav.me"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+        InlineKeyboardButton(text="Join Updates", url=f"t.me/XstrangeUpdate"),
+        #InlineKeyboardButton(
+        #    text="Try inline!​​", switch_inline_query_current_chat=""
         ),
     ],
     [
