@@ -9,7 +9,7 @@ from XStrangeBot import (
     TIGERS,
     WOLVES,
     dispatcher,
-) 
+)
 from XStrangeBot.modules.helper_funcs.chat_status import dev_plus
 from XStrangeBot.modules.helper_funcs.extraction import (
     extract_user,
